@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { getUsername } from "../helper/helper";
 
-axios.defaults.baseURL = "http://localhost:8080";
+axios.defaults.baseURL = "http://167.71.231.185:8080";
 
 export const useFetch = (query) => {
 
