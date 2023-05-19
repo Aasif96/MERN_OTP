@@ -29,7 +29,7 @@ export const useFetch = (query) => {
                     setData(prev => ({...prev,apiData:data.user,status:status}))
                 } 
 
-                setData(prev => ({...prev,isLoading:false}))
+                setData(prev => ({...prev,isLoading:false})) 
 
             } catch (error) {
                 setData(prev => ({...prev,isLoading:false, serverError:error}))
